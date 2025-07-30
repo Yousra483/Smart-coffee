@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Coffe Order</title>
+    <style>
+    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background: linear-gradient(135deg, #f4e8d9, #dbc1ac);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero {
+  text-align: center;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fffdf8;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  max-width: 400px;
+  margin: auto;
+}
+
+.card h1 {
+    display: flex;
+
+  font-size: 28px;
+  color: #5b3924;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #7a5b45;
+  margin-bottom: 25px;
+}
+
+.card button {
+  background-color: #5b3924;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #3e2818;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #5b3924;
+}
+    </style>
+</head>
+<body>
+    <div class="div">
+        <h1>Welcome to Smart coffee Assistant</h1>
+        <p>Click the button below to start your coffee order!</p>
+        <button onclick="startCoffeeAssistant()">Start Order</button>
+        <footer>Made with ❤ for coffee lovers</footer>
+
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
